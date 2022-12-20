@@ -21,3 +21,12 @@ CallerService is a simple console application that queries the Consul agent for 
 Services need to - not very surprisingly - know the name of the service they're calling, so abstracting away the service address discovery to using Consul when running in development and something else when running in production (note that this might also be Consul) should not be too hard.
 
 Consul **DOES** come with it's own DNS server that can resolve services and can be set to listen to port 53/udp. This would bring the local development experience even closer to the Kubernetes experience, but would require modifying `hosts`/`resolv.conf` or so.
+
+![image](https://user-images.githubusercontent.com/464166/208651128-2cc31587-c901-485c-8ed3-e409a9a2d018.png)
+
+![image](https://user-images.githubusercontent.com/464166/208651222-be52eddb-21b5-450f-9ead-6ef775093d92.png)
+
+![image](https://user-images.githubusercontent.com/464166/208651307-585752a9-7139-4745-988b-f0d42bda9725.png)
+
+
+
